@@ -23,5 +23,5 @@ This Java application simulates a basic student loan management system. It allow
    ```bash
    javac *.java
 Author
-Youssef Rajeh
+Youssef Rajeh - - - - -
 Abdul Maarouf
