@@ -1,25 +1,35 @@
-# 🎓 Student Loan Application
+# Student Loan Application
 
-Welcome to the **Student Loan Application** — a simple yet powerful Java project designed to help manage student loan data with clean object-oriented design, real-world calculations, and robust error handling.
+This Java application provides a simple system for managing student loans using object-oriented principles, interfaces, and exception handling.
 
-🚀 This app lets you:
-- Create students with names, programs, and loan amounts
-- Automatically calculate monthly payments using an interface-driven approach
-- Catch invalid input with a custom exception (`NegativeValueException`)
-- See results instantly through the console
+## Overview
 
-🧠 Built with:
-- `Student.java` — your blueprint for each student
-- `y_a_LoanPayable.java` — the contract that guarantees loan calculations
-- `y_a_NegativeValueException.java` — because negative loans don’t make sense!
-- `StudentLoanApp.java` — the main stage where everything comes together
+The application allows users to:
 
-📦 To get started:
-```bash
-javac *.java
+- Create student profiles with name, program, and loan amount
+- Calculate monthly loan payments based on standard formulas
+- Handle invalid input using a custom exception for negative loan values
+
+## Project Structure
+
+- `Student.java` – Defines the `Student` class and implements the loan calculation logic
+- `y_a_LoanPayable.java` – Interface that enforces loan-related methods
+- `y_a_NegativeValueException.java` – Custom exception for handling negative input
+- `StudentLoanApp.java` – Main class that runs the application and interacts with the user
+
+## How to Run
+
+1. Compile all `.java` files:
+   ```bash
+   javac *.java
+Run the application:
+
+bash
+Copy
+Edit
 java StudentLoanApp
-💡 Requirements: Java JDK 8+
+Requirements
+Java Development Kit (JDK) 8 or higher
 
-Whether you're learning Java, building for fun, or practicing interfaces and exceptions — this project gives you a hands-on way to see it all in action. Happy coding!
-
-— Crafted with 💻 by Youssef Rajeh ------Abdul Maarouf
+Author
+Youssef Rajeh ----------- Abdul Maarouf
