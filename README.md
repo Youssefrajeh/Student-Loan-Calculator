@@ -17,19 +17,7 @@ The application allows users to:
 - `y_a_NegativeValueException.java` – Custom exception for handling negative input
 - `StudentLoanApp.java` – Main class that runs the application and interacts with the user
 
-## How to Run
 
-1. Compile all `.java` files:
-   ```bash
-   javac *.java
-Run the application:
-
-bash
-Copy
-Edit
-java StudentLoanApp
-Requirements
-Java Development Kit (JDK) 8 or higher
 
 Author
 Youssef Rajeh ----------- Abdul Maarouf
